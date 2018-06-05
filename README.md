@@ -2,7 +2,7 @@
 
 # WeDeploy Rewrite
 
-An example of a simple rewrite with environment variables with NGINX Alpine container.
+An example of a simple rewrite with environment variables with NGINX Alpine container.   
 Keep in mind that this is not just a redirection, but a rewrite, so `https://service-project.wedeploy.io/docs` will be `https://wedeploy.com/docs`
 
 ## Instructions
