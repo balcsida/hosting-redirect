@@ -1,9 +1,5 @@
 {
     "id": "redirect",
     "cpu": 0.05,
-    "memory": 16,
-    "env": {
-        "URL_TO": "https://wedeploy.com",
-        "RETURN": "302"
-    }
+    "memory": 16
 }
