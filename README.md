@@ -14,7 +14,8 @@ Keep in mind that this is not just a redirection, but a rewrite, so `https://ser
 
 ## Default environment values
 
-|| name || default ||
+| Name | Default |
+| --- | --- |
 | URL_TO | https://wedeploy.com |
 | RETURN | 302 |
 
