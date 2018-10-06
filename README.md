@@ -14,10 +14,10 @@ Keep in mind that this is not just a redirection, but a rewrite, so `https://ser
 
 ## Environment values
 
-| Name | Example |
-| --- | --- |
-| URL_TO | https://wedeploy.com |
-| RETURN | 302 |
+| Name | Description | Example |
+| --- | --- | --- |
+| URL_TO | Rewrite target | https://wedeploy.com |
+| RETURN | HTTP status code to return | 302 |
 
 ## License
 
