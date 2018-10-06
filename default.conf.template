@@ -1,4 +1,4 @@
 server {
     listen 80;
-    return ${RETURN} ${URL_TO}$request_uri;
+    return ${RETURN:-302} ${URL_TO:-https://wedeploy.com}$request_uri;
 }
