@@ -1,8 +1,8 @@
-[![Deploy](https://cdn.wedeploy.com/images/deploy.svg)](https://console.wedeploy.com/deploy?repo=https://github.com/balcsida/wedeploy-redirect)
+[![Deploy](https://cdn.wedeploy.com/images/deploy.svg)](https://console.wedeploy.com/deploy?repo=https://github.com/balcsida/redirect-example)
 
-# WeDeploy Rewrite
+# WeDeploy Simple Redirect
 
-An example of a simple rewrite with environment variables with NGINX Alpine container.   
+An example of a simple redirect with environment variables using an NGINX Alpine (mainline) container.   
 Keep in mind that this is not just a redirection, but a rewrite, so `https://service-project.wedeploy.io/docs` will be `https://wedeploy.com/docs`
 
 ## Instructions
@@ -14,7 +14,7 @@ Keep in mind that this is not just a redirection, but a rewrite, so `https://ser
 
 ## Environment values
 
-| Name | Description | Example |
+| Name | Description | Default |
 | --- | --- | --- |
 | URL_TO | Rewrite target | https://wedeploy.com |
 | RETURN | HTTP status code to return | 302 |
