@@ -1,7 +1,5 @@
 {
     "id": "redirect",
-    "cpu": 0.005,
-    "memory": 8,
     "healthCheck": {
         "url": "localhost"
     }
